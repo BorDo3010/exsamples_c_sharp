@@ -1,0 +1,15 @@
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\bin\Debug\net6.0\Exam001_HelloWorld.exe
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\bin\Debug\net6.0\Exam001_HelloWorld.deps.json
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\bin\Debug\net6.0\Exam001_HelloWorld.runtimeconfig.json
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\bin\Debug\net6.0\Exam001_HelloWorld.dll
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\bin\Debug\net6.0\Exam001_HelloWorld.pdb
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\Exam001_HelloWorld.csproj.AssemblyReference.cache
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\Exam001_HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\Exam001_HelloWorld.AssemblyInfoInputs.cache
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\Exam001_HelloWorld.AssemblyInfo.cs
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\Exam001_HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\Exam001_HelloWorld.dll
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\refint\Exam001_HelloWorld.dll
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\Exam001_HelloWorld.pdb
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\Exam001_HelloWorld.genruntimeconfig.cache
+C:\Users\Admin\YandexDisk\Борис Работа\GeekBrains\ДЗ\C#\Examples\Exam001_HelloWorld\obj\Debug\net6.0\ref\Exam001_HelloWorld.dll
