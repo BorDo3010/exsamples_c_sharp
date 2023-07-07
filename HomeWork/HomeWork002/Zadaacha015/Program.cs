@@ -5,16 +5,12 @@
 
 Console.Write("Введите день недели от 1 до 7: ");
 int dayNumber = Convert.ToInt32(Console.ReadLine ());
-if (dayNumber == 6)
+if (dayNumber == 6 || dayNumber == 7)
     {
         Console.Write("Выходной день ");
     }
-if (dayNumber == 7)
-{
-        Console.Write("Выходной день ");
-}
-else
-{
-    Console.Write("Рабочий день");
-}
-        
+    else
+    {
+        Console.Write("Рабочий день");
+    }
+    
