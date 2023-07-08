@@ -6,3 +6,12 @@
 Console.Write("Введите число : ");
 int userNumber = Convert.ToInt32(Console.ReadLine());
 
+if (userNumber < 100)
+{
+    Console.WriteLine("Проверьте написание числа!");
+} 
+else
+{
+    string str = userNumber.ToString();
+Console.WriteLine($"Третья цифра числа {userNumber}: Это {str[2]}");
+}
