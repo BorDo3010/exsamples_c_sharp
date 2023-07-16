@@ -4,18 +4,10 @@
 // 5 -> 1, 8, 27, 64, 125
 // */
 
-int number = ReadInt("Введите число N: ");
+Console.WriteLine("Введите число: ");
+int end = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 1; i <= number; i++)
-{ 
-    Console.Write($"{i*i*i} ");
-}
-
-
-
-// Функция ввода сообщения
-int ReadInt(string message)
+for (int i = 1; i <= end; i++)
 {
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
+    Console.Write(Math.Pow(i, 3) + " ");
 }
