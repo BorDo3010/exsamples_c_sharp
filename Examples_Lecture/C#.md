@@ -35,7 +35,7 @@
 
 * PrintArray - Метод Печатает массив
 
-* InexOf 
+* InexOf
 
 * TryParse - Метод возвращает либо TRUE, либо FALSE
 
@@ -47,4 +47,64 @@
 
 * Math.Pow(числло и степень) => Math.Pow(2,3) Pow = степень - Возведение в степень.
 
-* Math.Round(число, кол-во знаков после запятой) - Округление
+* Math.Round(число, кол-во знаков после запятой) - Округление.
+
+## Методы
+
+1. **Ничего не принимают и ничего не возвращают**
+
+* void Method1()
+{
+    Console.WriteLine("Автор...");
+}
+
+        Вызов метода
+
+Идентификатор - Method1();
+Method1; *Без скобок* - **ОШИБКА!**
+
+2. **Не вовращают, но принимают аргументы**
+
+* void Method2(string msg, int count - Именованные аргументы)
+
+        {
+        int i = 0;
+        while(i < count)
+        {
+        Console.WriteLine(msg);
+        i++;
+        }
+        }
+    Вызов метода
+
+Method2(msg: "ваше сообщение", count: 6);
+
+Перестановка мест не имеет значения
+
+Method2(count: 6, msg: "ваше сообщение");
+
+3. **Возвращают но не принимают**
+
+        * int Method3()
+        {
+            return DateTime.Now.Year;
+        }
+        int year = Method3();
+        Console.WriteLine(year);
+
+4. **Принимают и возвращают**
+
+ *         string Method4(int count, string text)
+        {
+            int i = 0;
+            string result = String.Empty;
+
+            while (i < count)
+            {
+                result = result + text;
+                i++;
+            }
+            return result;
+        }
+        string res = Method4(10, "boo ");
+        Console.WriteLine(res);
