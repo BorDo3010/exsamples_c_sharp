@@ -9,10 +9,14 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("max = ");
 
-if (a < b) {
+if (a < b)
+{
     Console.Write(b);
-} else {
+} 
+else 
+{
     Console.Write(a);
 }
 
 Console.WriteLine();
+
