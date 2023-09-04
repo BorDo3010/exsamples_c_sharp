@@ -21,7 +21,7 @@ while (true)
     Console.Clear();
     if (int.TryParse(userDegreeText, out int userDegree) && double.TryParse(userNumberText, out double userNumber))
     {
-        Console.WriteLine($"Сумма цифр в числе {userNumber} равняется {RaiseDegree(userNumber, userDegree)}");
+        Console.WriteLine($"Число {userNumber} в степени {userDegree} равняется {RaiseDegree(userNumber, userDegree)}");
     }
     else
     {
