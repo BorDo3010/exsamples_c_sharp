@@ -16,17 +16,21 @@ int SumDigit(int numb)
     return sum;
 }
 
+Console.Clear();
 while (true)
 {
+    Console.WriteLine("-------------------------------------------------");
+    Console.WriteLine("Для выхода Ctrl+C");
+    Console.WriteLine("-------------------------------------------------");
     Console.Write("Введите число: ");
     string userNumberText = Console.ReadLine();
+    Console.Clear();
     if (int.TryParse(userNumberText, out int userNumber))
     {
-        Console.Clear();
-        Console.WriteLine("Сумма цифр в числе {0} равняется {1}", userNumber, SumDigit(userNumber));
+        Console.WriteLine($"Сумма цифр в числе {userNumber} равняется {SumDigit(userNumber)}");
     }
     else
-    { 
-    Console.WriteLine("Не удалось распознать число, попробуйте еще раз.");
+    {
+        Console.WriteLine($"Не удалось распознать число {userNumberText}, попробуйте еще раз.");
     }
 }
