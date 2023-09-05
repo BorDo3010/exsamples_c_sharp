@@ -37,7 +37,7 @@ void PrintArray(int[,] arr)
         Console.WriteLine(); 
     } 
 } 
-void EvenIndicesInPow(int[,] matrix) 
+void EvenIndexesInSqare(int[,] matrix) 
 { 
     for(int i = 0; i < matrix.GetLength(0); i+=2) 
     { 
@@ -48,8 +48,8 @@ void EvenIndicesInPow(int[,] matrix)
     } 
 } 
  
-int[,] matrix = CreateMatrixSumIndexes(3, 4,-5,5); 
+int[,] matrix = CreateMatrixSumIndexes(3, 4,2,10); 
 PrintArray(matrix); 
-EvenIndicesInPow(matrix); 
+EvenIndexesInSqare(matrix); 
 Console.WriteLine(); 
 PrintArray(matrix);
